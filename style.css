@@ -433,7 +433,9 @@ font-size: 20px;
   color: #000;
   background: rgb(0, 0, 0, 0.2);
   border-radius: 20px;
+  border: 1px solid transparent;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .like-share a i{
@@ -649,7 +651,7 @@ width: 60%;
         font-size: 18px;
        }
        .content-bars2{
-        margin-bottom: 80px;
+        margin-bottom: 110px;
       }
 
       .video-hero-left{
