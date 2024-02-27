@@ -27,6 +27,8 @@ videoClips.forEach((videoClip) => {
 
 
 function btnFunction(clickedElement) {
+  const windowWidth = window.innerWidth || document.documentElement.clientWidth;
+
   const likeShare = document.querySelectorAll('.likeShare');
 
   likeShare.forEach(element => {
@@ -35,9 +37,13 @@ function btnFunction(clickedElement) {
   });
 
   clickedElement.style.color = "crimson";
-  clickedElement.style.border="1px solid crimson";
-  clickedElement.style.transition="0.5s";
+  clickedElement.style.transition = "0.5s";
+
+  if (windowWidth > 1250) { 
+    clickedElement.style.border = "1px solid crimson";
+  }
 }
+
 
 
 
