@@ -325,7 +325,7 @@ font-size: 20px;
   float: left;
   padding: 24px 24px 0;
   background: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
   height: 100vh;
 }
 .video-hero-left video{
@@ -648,6 +648,13 @@ width: 60%;
       .like-share a i{
         font-size: 18px;
        }
+       .content-bars2{
+        margin-bottom: 80px;
+      }
+
+      .video-hero-left{
+        margin-bottom: 60px;
+      }
         }
 
         @media (max-width: 400px){
