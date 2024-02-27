@@ -231,7 +231,7 @@ font-size: 20px;
   color: #000;
  }
 
- .content-bars {
+ .content-bar .content-bars {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
@@ -547,7 +547,7 @@ width: 60%;
   }
 
 @media (max-width: 800px) {
-.content-bars {
+.content-bar .content-bars {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -585,11 +585,11 @@ width: 60%;
   
   }
 
-  @media (max-width: 650px) {
+  @media screen and (max-width: 650px) {
     .center-nav input {
       display: none;
     }
-    .content-bars {
+    .content-bar .content-bars{
       display: grid;
       grid-template-columns: 1fr;
     }
